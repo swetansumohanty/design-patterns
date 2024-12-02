@@ -28,8 +28,6 @@ class Singleton(metaclass=Metaclass):
     def get_item():
         pass
 
-    pass
-
 
 obj: Singleton = Singleton()
 print(f"i am obj at {obj}")
